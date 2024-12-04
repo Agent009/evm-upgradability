@@ -12,3 +12,9 @@
 * (Review) Delegate calls
 * Extending storage
 * Changing logic
+
+### Testing
+
+```bash
+npm run test
+```
