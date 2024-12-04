@@ -1,6 +1,5 @@
 import { task, type HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
-import "@nomicfoundation/hardhat-ethers";
 import '@openzeppelin/hardhat-upgrades';
 import { constants } from "./lib/constants";
 

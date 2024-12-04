@@ -72,7 +72,7 @@ describe("Upgrade", async () => {
       it("Fails", async () => {
         await expect(
           upgrades.deployProxy(tokenFactory)
-        ).to.eventually.be.rejectedWith("Contract `contracts/ERC20.sol:Token` is not upgrade safe");
+        ).to.eventually.be.rejectedWith("Contract `contracts/Token.sol:Token` is not upgrade safe");
       });
     });
   });
